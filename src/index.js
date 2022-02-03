@@ -12,7 +12,6 @@ const split = (text) => {
         console.error(error);
     }
 };
-//test
 
 const removePrefix = (text) => {
     const prefixPattern = /(เขต|แขวง|จังหวัด|อำเภอ|ตำบล|อ\.|ต\.|จ\.|โทร\.?|เบอร์|ที่อยู่)/g;
